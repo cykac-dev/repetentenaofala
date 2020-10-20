@@ -1,0 +1,61 @@
+body {
+  margin: 50px auto;
+  background: #f9f9f9;
+  min-width: 300px;
+  max-width: 900px;
+  font-family: Roboto, sans-serif;
+}
+i {
+  color: #888;
+  font-style: normal;
+}
+p {
+  margin: 14px 0;
+}
+button {
+  transition: 0.2s;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding-left: 0;
+}
+.material-icons-round {
+  color: #888;
+}
+.comment-block-main {
+  display: flex;
+}
+.comment-block-secondary {
+  display: flex;
+  margin-left: 70px;
+}
+.profile-picture-lg {
+  margin: 15px;
+  height: 55px;
+}
+.profile-picture-sm {
+  margin: 15px;
+  height: 30px;
+}
+.rating-button:hover {
+  transform: scale(1.07);
+}
+.rating-button:active {
+  transform: rotate(-5deg) scale(0.95);
+}
+.rating-button-active {
+  color: #065fd4;
+}
+.toggle-answers {
+  color: #065fd4;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.channel-owner {
+  border-radius: 12px;
+  background: #888;
+  padding: 1px 5px;
+  color: white;
+}
