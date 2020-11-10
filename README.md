@@ -1,2 +1,2 @@
 Link test
-[link](/#)
+[link](.)
